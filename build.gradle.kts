@@ -35,9 +35,9 @@ publishing {
 repositories {
     mavenCentral()
     mavenLocal()
-    mavenGoogle();
+    google()
 }
-
+//mavenGoogle()
 dependencies {
     compileOnly(kotlin("stdlib"))
     implementation("com.google.code.gson:gson:2.9.1")
